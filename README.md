@@ -36,7 +36,7 @@ This repository contains an implementation of knowledge distillation using PyTor
 
 2. Install the required packages:
    ```
-   pip install torch torchvision
+   pip install -r requirements.txt
    ```
 
 ## Usage
