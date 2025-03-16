@@ -1,5 +1,4 @@
 import torch
-import torch.optim as optim
 import logging
 import os
 from src.data_loader import get_data_loaders
@@ -8,7 +7,6 @@ from src.train_teacher import train_teacher, test_teacher
 from src.train_knowledge_distillation import train_knowledge_distillation, test_knowledge_distillation
 from src.train_student import train_student, test_student
 from src.distillation_loss import distillation_loss
-import copy
 
 logging.basicConfig(
     level=logging.INFO,  
