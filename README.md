@@ -55,8 +55,6 @@ By default, this will:
 
 ## Results
 
-The training results are logged to the console and `logs.log`. Key metrics include:
-
 |   |Accuracy|
 |---|---|
 |Teacher model | 79.44% | 
